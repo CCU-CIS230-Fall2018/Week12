@@ -11,19 +11,17 @@ namespace Cryptography_Exercise
 	{
 		public byte[] EncryptData(SymmetricAlgorithm symAlg,string plainData)
 		{
-			byte[] inBlock = UnicodeEncoding.Unicode.GetBytes(plainData);
+			byte[] inBlock = Encoding.Unicode.GetBytes(plainData);
 			ICryptoTransform xfrm = symAlg.CreateEncryptor();
 			byte[] outBlock = xfrm.TransformFinalBlock(inBlock, 0, inBlock.Length);
-			Console.WriteLine(outBlock.ToString());
 			return outBlock;
 		}
 
-		public byte[] DecryptData(byte[] cipherData, byte[] IV, byte[] key)
+		public string DecryptData(SymmetricAlgorithm symAlg, byte[] cipherData)
 		{
-			SymmetricAlgorithm cryptoAlgorith = SymmetricAlgorithm.Create();
-			ICryptoTransform decryptor = cryptoAlgorith.CreateDecryptor(key, IV);
-			byte[] plainText = decryptor.TransformFinalBlock(cipherData, 0, cipherData.Length);
-			return plainText;
+			ICryptoTransform xfrm = symAlg.CreateDecryptor();
+			byte[] outBlock = xfrm.TransformFinalBlock(cipherData, 0, cipherData.Length);
+			return UnicodeEncoding.Unicode.GetString(outBlock);
 		}
 
 	}
