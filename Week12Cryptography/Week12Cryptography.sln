@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week12Cryptography", "Week12Cryptography\Week12Cryptography.csproj", "{EEFA43EA-1402-4ECA-B424-3D3670FDE600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week12CryptographyTests", "Week12CryptographyTests\Week12CryptographyTests.csproj", "{6CE12AE8-084E-4609-AEB7-34CB4AC6B025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEFA43EA-1402-4ECA-B424-3D3670FDE600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFA43EA-1402-4ECA-B424-3D3670FDE600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFA43EA-1402-4ECA-B424-3D3670FDE600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFA43EA-1402-4ECA-B424-3D3670FDE600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE12AE8-084E-4609-AEB7-34CB4AC6B025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE12AE8-084E-4609-AEB7-34CB4AC6B025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE12AE8-084E-4609-AEB7-34CB4AC6B025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE12AE8-084E-4609-AEB7-34CB4AC6B025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91EDFC81-22C6-4CDE-BC45-27A7007B5E72}
+	EndGlobalSection
+EndGlobal
