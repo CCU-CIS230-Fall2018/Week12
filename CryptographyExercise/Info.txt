@@ -1,0 +1,9 @@
+Create a Class Library and a Test project that implements at least two of the following cryptographic techniques:
+Hashing, Symmetric Encryption, Asymmetric Encryption, Digital Signing
+The Class Library should contain the implementations and the Test project should verify those implementations
+Ensure that your tests actually confirm that the implementations work as expected.
+Additional Notes:
+Follow all coding standards
+Publish your changes to a branch named dev/<initials>/week13
+Create a Pull Request to indicate that the changes are ready for grading
+Provide your branch name as your submission for this exercise
